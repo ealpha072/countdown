@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Countdown</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Event Countdown</h1>
+    <div id="content">
+        <h2>Event Info</h2>
+        <div id="eventinfo">
+            <div id="input-groups">
+                <label>Event Name</label><br>
+                <input type="text" name="event-name">
+            </div>
+            <!--<div id="input-groups">
+                <label>Organizer</label><br>
+                <input type="text" name="Organizer-name">
+            </div>-->
+        </div>
+        <h2>About Event</h2>
+        <div id="event-time">
+            <div id="input-groups">
+                <label>Day</label><br>
+                <select name="day"></select>    
+            </div>
+            <div id="input-groups">
+                <label>Month</label><br>
+                <select name="month"></select>
+            </div>
+            <div id="input-groups">
+                <label>Year</label><br>
+                <select name="year"></select>
+            </div>
+            <div id="input-groups">
+                <label>Time(Hour)</label><br>
+                <select name="hour"></select>
+            </div>
+            <div id="input-groups">
+                <label>Time(Minute)</label><br>
+                <select name="minute"></select>
+            </div>
+            <div id="input-groups">
+                <label>Time(Seconds)</label><br>
+                <select name="seconds"></select>
+            </div>
+       </div>
+            <div id="button-holder">
+                <button id="start-timer">Start Countdown</button>
+            </div>
+        <div id="timer-holder">
+
+            <div>Event Name:<span class="info"></span></div>
+            <div>Days:<span class="days"></span>Hours:<span class="hour"></span>Minutes:<span class="minute"></span>Seconds:<span class="secs"></span></div>            
+        </div>
+    </div>
+    <script type="" src="main.js"></script>
+</body>
+</html>
